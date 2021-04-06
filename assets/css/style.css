@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
-  background: linear-gradient(45deg, #1de099, #ffc525);
+  background: linear-gradient(45deg, #ffc525, #ffc525);
   color: #fff;
   border-radius: 4px 4px 0 0;
   right: 15px;
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 90px;
   transition: all 0.5s;
   z-index: 997;
-  background: linear-gradient(45deg, #1de099, #ffc525);
+  background: linear-gradient(45deg, #ffc525, #ffc525);
 }
 
 #header.header-transparent {
@@ -954,6 +954,10 @@ section {
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
   background: #fff;
   text-align: center;
+
+}
+#pricing .box li{
+padding-bottom: 30px;
 }
 
 #pricing h3 {
@@ -1013,7 +1017,7 @@ section {
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #ffc525);
+  background: linear-gradient(45deg, #ffc525, #ffc525);
 }
 
 /* Frequently Asked Questions Section
@@ -1300,7 +1304,7 @@ section {
 }
 
 #contact .php-email-form button[type="submit"] {
-  background: linear-gradient(45deg, #1de099, #ffc525);
+  background: linear-gradient(45deg, #ffc525, #ffc525);
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
